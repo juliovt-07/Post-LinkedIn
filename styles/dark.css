@@ -1,0 +1,90 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #0F0F0F;
+
+}
+
+.container{
+    max-width: 910px;
+    max-height: 630px;
+    margin-left: 35px;
+}
+
+/* header */
+header{
+    max-width: 689px;
+    max-height: 123px;
+    display: flex;
+    margin: 19px 0 0 0;
+    color: #ffffff;
+}
+header .perfil img{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+header .header-text{
+    max-width: 570px;
+    max-height: 114px;
+    margin: 0 0 0 19px;
+    line-height: 10px;
+}
+header .header-text h1{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -1.5px;
+}
+header .header-text h3, p{
+    letter-spacing: -1px;
+    opacity: 70%;
+    font-weight: 400;
+}
+header .header-text h3{
+    font-size: 25px;
+}
+header .header-text p{
+    font-size: 24px;
+}
+
+/* content */
+.content{
+    max-width: 725px;
+    max-height: 311px;
+    margin-top: 26px;
+    color: #ffffff;
+}
+.content h2{
+    font-size: 28.5px;
+    font-weight: 300;
+    opacity: 75%;
+    line-height: 50px;
+}
+.content h3{
+    font-size: 28px;
+    font-weight: 700;
+    color:#0FC22B;
+}
+
+/* footer */
+footer{
+    max-width: 841px;
+    max-height: 56px;
+    margin-top: 76px;
+}
+footer .line{
+    max-width: 841px;
+    max-height: 0;
+    border: solid 1px #ffffff;
+    opacity: 8%;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+}
+footer ul li{
+    padding: 0 70px 0 0;
+}
